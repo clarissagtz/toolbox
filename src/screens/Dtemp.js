@@ -7,7 +7,7 @@ const Dtemp = () => {
     return (
         <div>
             <h2> Daixi's page for now  </h2>
-            <Button variant="btn btn-success" onClick={()=> history.push("/")}>Go to index </Button>
+            <Button variant="btn primary" className="mainButton"  onClick={()=> history.push("/")}>Go to index </Button>
         </div>
     );
 }

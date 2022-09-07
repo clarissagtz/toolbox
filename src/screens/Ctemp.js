@@ -8,6 +8,7 @@ const Ctemp = () => {
         <div>
             <h2> Clarissa's page for now  </h2>
 
+
             <Button variant="btn btn-success" className="mainButton" onClick={()=> history.push("/")}>Go to index </Button>
         </div>
     );
