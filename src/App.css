@@ -30,19 +30,28 @@
 }
 
 .mainButton{
-  /* display: flex;
-  position: relative; */
+  display: flex;
+  position: relative;
   align-items: center;
   text-align: center;
   justify-content: center;
+  
+  background-color: #C69214;
+  color: white;
+  font-size: 20px;
+  border-color: #d1b87b;
+
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin: 10px auto;
+  cursor: pointer;
+
+  width: 250px;
+  height: 60px;
+
 }
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.primary:hover {
+  background: #deb043;
 }
+

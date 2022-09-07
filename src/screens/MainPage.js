@@ -7,7 +7,7 @@ const MainPage = () => {
         <div>
             <h2>This will be the main page, the others page will be deleted  </h2>
             <div>
-            <Button 
+            <Button variant="btn primary" className="mainButton" 
             onClick={()=> history.push("/")}>Go back to index</Button>
                 
             </div>
