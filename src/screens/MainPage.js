@@ -2,9 +2,6 @@ import { Button } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
-import Content from '../components/Content/Content'
-import Ctemp from "./Ctemp"
-
 
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -52,7 +49,7 @@ const MainPage = () => {
             allignItems="Center"
             >
                 <Grid item xs={12} sm={6} md={4}>
-                    <a href="https://a5.ucsd.edu/tritON/profile/SAML2/Redirect/SSO?execution=e4s1" target="_blank" style={{textDecoration: "none"}}>
+                    <a href="https://act.ucsd.edu/webreg2/start" target="_blank" style={{textDecoration: "none"}}>
                         <Card sx={{ maxWidth: 345 }} style={{borderRadius: '16px', color: "white", background:"#182B49", margin:"auto"}} > 
                         <CardActionArea>
                             <CardMedia
@@ -178,7 +175,7 @@ const MainPage = () => {
                 </Grid>
 
                 <Grid item xs={12} sm={6} md={4}>
-                <a href="https://ucsd.joinhandshake.com" target="_blank" style={{textDecoration: "none"}}>
+                <a href="https://gmail.com" target="_blank" style={{textDecoration: "none"}}>
                         <Card sx={{ maxWidth: 345 }} style={{borderRadius: '16px', color: "white", background:"#182B49", margin:"auto"}} > 
                             <CardActionArea>
                                 <CardMedia
@@ -220,7 +217,7 @@ const MainPage = () => {
                 </Grid>
 
                 <Grid item xs={12} sm={6} md={4}>
-                <a href="https://a5.ucsd.edu/tritON/profile/SAML2/Redirect/SSO?execution=e2s1" target="_blank" target="_blank" style={{textDecoration: "none"}}>
+                <a href="https://act.ucsd.edu/studentAcademicHistory/academichistorystudentdisplay.htm" target="_blank" target="_blank" style={{textDecoration: "none"}}>
                         <Card sx={{ maxWidth: 345 }} style={{borderRadius: '16px', color: "white", background:"#182B49", margin:"auto"}} > 
                             <CardActionArea>
                                 <CardMedia
@@ -262,7 +259,7 @@ const MainPage = () => {
                 </Grid>
 
                 <Grid item xs={12} sm={6} md={4}>
-                <a href="https://a5.ucsd.edu/tritON/profile/SAML2/Redirect/SSO?execution=e3s1" target="_blank" style={{textDecoration: "none"}}>
+                <a href="https://students.ucsd.edu/academics/advising/degrees-diplomas/degree-audits.html" target="_blank" style={{textDecoration: "none"}}>
                         <Card sx={{ maxWidth: 345 }} style={{borderRadius: '16px', color: "white", background:"#182B49", margin:"auto"}} > 
                             <CardActionArea>
                                 <CardMedia
@@ -283,7 +280,7 @@ const MainPage = () => {
                 </Grid>
 
                 <Grid item xs={12} sm={6} md={4}>
-                <a href="https://a5.ucsd.edu/tritON/profile/SAML2/Redirect/SSO?execution=e3s1" target="_blank" style={{textDecoration: "none"}}>
+                <a href="https://www.google.com/" target="_blank" style={{textDecoration: "none"}}>
                         <Card sx={{ maxWidth: 345 }} style={{borderRadius: '16px', color: "white", background:"#182B49", margin:"auto"}} > 
                             <CardActionArea>
                                 <CardMedia
