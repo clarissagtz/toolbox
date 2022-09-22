@@ -1,0 +1,59 @@
+.share-container {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    text-align:justify;
+    padding-right: 120px;
+    padding-top: 30px;
+    row-gap: 30px;
+}
+
+.first-para {
+    background-image: linear-gradient(45deg, #4f8df7, #13ff17e9);
+    background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.second-para {
+    font-size: 28px;
+    background-image: linear-gradient(45deg, #c5ea0d, #06b8eee9);
+    height: 50px;
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.third-para {
+    font-size: 35px;
+    color:rgb(49, 153, 219);
+    font-weight: 700;
+}
+
+@media screen and (max-width: 980px) {
+    .share-container {
+        display: grid;
+        grid-template-rows: 1fr 2fr 1fr 1fr;
+        height: 70vh;
+        justify-content: center;
+        align-items: center;
+        text-align:justify;
+        padding-left:100px;
+        padding-top: 30px;
+        row-gap: 30px;
+        overflow: scroll;
+    }
+
+    .second-para {
+        font-size: 28px;
+        background-image: linear-gradient(45deg, #c5ea0d, #06b8eee9);
+        height: 80px;
+        text-align: center;
+        font-family: "Archivo Black", sans-serif;
+    }
+    }

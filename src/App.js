@@ -12,7 +12,12 @@ import MainPage from './screens/MainPage';
 import Ctemp from './screens/Ctemp';
 import Dtemp from './screens/Dtemp';
 import Home from './screens/Home';
+import About from './screens/About';
+import Contact from './screens/Contact';
+import Credits from './screens/Credits';
+import Share from './screens/Share'
 
+//change Home for now to MAIN PAGE path /
 
 function App() {
   return (
@@ -20,11 +25,15 @@ function App() {
     <div className="App">
         <Switch>
           {/* <Route exact path = "/"></Route> */}
-
-          <Route path="/" exact component={Home} />
+          
+          <Route path="/" exact component={MainPage} /> 
           <Route path="/MainPage" component={MainPage} />
           <Route path="/Dtemp" component={Dtemp} />
           <Route path="/Ctemp" component={Ctemp} />
+          <Route path="/About" component={About} />
+          <Route path="/Contact" component={Contact} />
+          <Route path="/Credits" component={Credits} />
+          <Route path="/Share" component={Share} />
           
 
         </Switch>
