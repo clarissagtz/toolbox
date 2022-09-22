@@ -1,0 +1,47 @@
+.credits-container {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    align-items: center;
+    text-align:justify;
+    row-gap: 30px;
+}
+
+.credits-header {
+    font-size:30px;
+    margin-left:20%;
+    margin-right: 30%;
+}
+
+.cinfo {
+    margin-left:25%;
+    font-size: 22px;
+    display: grid;
+    row-gap: 5px;
+    margin-top:-5%
+    
+}
+
+.dinfo {
+    margin-left:25%;
+    font-size: 22px;
+    display: grid;
+    row-gap: 5px;
+}
+
+.credits-name {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Gotham Medium,system,sans-serif";
+    background-image: linear-gradient(2deg, #04fb88, #0b5ffce9);
+    background-repeat: repeat;
+    background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  margin-left:-5%;
+}
+
+.credits-email {
+    text-decoration:underline lightcoral 2px;
+}

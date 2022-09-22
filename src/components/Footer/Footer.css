@@ -1,0 +1,59 @@
+.footer {
+    width:100%;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.footer-content {
+    text-decoration: none;
+    color: rgb(116, 115, 115);
+    font-weight: 400;
+    font-family: "Gotham SSm";
+}
+
+.footer-title {
+    flex:1;
+}
+
+.about {
+    flex: 1;
+}
+
+.contact  {
+    flex:1;
+}
+
+.credits {
+    flex: 1;
+}
+
+.instagram {
+    flex: 1;
+    padding-top:3px;
+}
+
+.twitter {
+    flex: 1;
+    padding-top:3px;
+}
+.app-store {
+    display:none
+}
+
+@media screen and (max-width: 980px) {
+    .footer {
+        width:100%;
+        background-color: white;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
