@@ -91,7 +91,7 @@ const MainPage = () => {
                 </Grid>
 
                 <Grid item xs={12} sm={6} md={4}>
-                <a href="https://www.reddit.com/" target="_blank" style={{textDecoration: "none"}}>
+                <a href="https://www.reddit.com/r/UCSD" target="_blank" style={{textDecoration: "none"}}>
                         <Card sx={{ maxWidth: 345 }} style={{borderRadius: '16px', color: "white", background:"#182B49", margin:"auto"}} > 
                             <CardActionArea>
                                 <CardMedia
@@ -259,7 +259,7 @@ const MainPage = () => {
                 </Grid>
 
                 <Grid item xs={12} sm={6} md={4}>
-                <a href="https://students.ucsd.edu/academics/advising/degrees-diplomas/degree-audits.html" target="_blank" style={{textDecoration: "none"}}>
+                <a href="ISEhIWluc3RpZHE9NzMhISEhaW5zdGlkPVVDU0QhISEhaW5zdGNkLmNvZGU9VU4gISEhIWluc3RjZC5uYW1lPVVOICEhISFzdHVkZW50PUExNjYwNzQ5NiEhISFjcmVhdGVQbGFuPSEhISFyZWZyZXNoQ29sbGVjdGlvbj1mYWxzZSEhISFjb2xsZWN0aW9uUmVsb2FkZWQ9ZmFsc2UhISEhdGVybVRvUmVnaXN0ZXI9ISEhIWNvdXJzZXNUb1JlZ2lzdGVyPW51bGwhISEhZGVzdGluYXRpb249" target="_blank" style={{textDecoration: "none"}}>
                         <Card sx={{ maxWidth: 345 }} style={{borderRadius: '16px', color: "white", background:"#182B49", margin:"auto"}} > 
                             <CardActionArea>
                                 <CardMedia
